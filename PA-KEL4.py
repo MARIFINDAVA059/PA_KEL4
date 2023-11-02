@@ -436,7 +436,7 @@ def display_total_stock():
 
 # Function untuk mengupdate pesanan pelanggan.
 def update_orders():
-    customer_name = input("Enter the customer's name to update their order or "X" to exit : ")
+    customer_name = input("Enter the customer's name to update their order or 'X' to exit : ")
     if customer_name in customer_orders:
         print(f"Current order for {customer_name}: {customer_orders[customer_name]}")
         new_order = {} 
