@@ -44,3 +44,6 @@ Ada berbagai fungsi untuk menampilkan data dalam format yang rapi menggunakan li
 Fungsi "generate_invoice" digunakan untuk menghasilkan invoice pembelian.
 Terdapat juga validasi input untuk memastikan data yang dimasukkan sesuai dengan aturan yang ada.
 Program ini memungkinkan pengguna untuk berinteraksi dengan sistem sebagai pelanggan, kasir, atau manajer dengan batasan peran yang sesuai. Seluruh data pengguna, pesanan pelanggan, menu kopi, dan stok barang disimpan dalam file CSV untuk menjaga integritas data antar-sesi.
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/26df85f9-7376-468e-a39a-cffe79b9187c)
+Tampilan Menu awal
