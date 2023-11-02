@@ -1,7 +1,7 @@
 # PA_KEL4
 
 
-rogram ini adalah simulasi dari sistem kasir dan manajemen kafe bernama "RumahKita CoffeeShop". Program ini memungkinkan pengguna untuk melakukan sejumlah tugas, seperti mendaftarkan pengguna baru, melakukan pemesanan kopi, mengelola stok barang, dan melihat catatan pesanan. Program ini terdiri dari beberapa fungsi dan antarmuka pengguna yang berbeda. Ini adalah panduan singkat tentang cara kerja program:
+Program ini adalah simulasi dari sistem kasir dan manajemen kafe bernama "RumahKita CoffeeShop". Program ini memungkinkan pengguna untuk melakukan sejumlah tugas, seperti mendaftarkan pengguna baru, melakukan pemesanan kopi, mengelola stok barang, dan melihat catatan pesanan. Program ini terdiri dari beberapa fungsi dan antarmuka pengguna yang berbeda. Ini adalah panduan singkat tentang cara kerja program:
 
 Menu Utama
 
@@ -71,6 +71,34 @@ akan muncul pilihan role untuk dijalankan
 ketika user memilih opsi 1 : customer
 akan diminta login dan mengisi password
 jika user menginput "X" maka akan langsung kembali ke menu pemilihan role
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/86cc5790-20a6-4c9f-b8fc-0b199cd86907)
+Ketika user memilih opsi 1 : order coffee
+akan muncul menu coffee beserta harga dan stok yang ada
+user dapat menginput nama coffee yg ingin diorder ( huruf Kapital harus sesuai )
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/eb7389cd-b001-42b3-9131-204b09e2a935)
+Setelah user menginput coffee, akan diminta jumlah coffee yang ingin dipesan kemudian akan kembali menampilkan menu kembali serta total bill sementara... 
+jika customer ingin mengoder lagi maka perlu memasukkan nama dan jumlah coffee..
+namun jika customer sudah selesai dalam mengorder, maka dapat menginput "X"
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/32cd0346-d1c7-4fea-9b3f-e67c7833b51a)
+Ketika user menginput "X" maka akan keluar total bill dan juga total bill
+user diminta menginput e money untuk membayar ( jumlah harus lebih dari total bill )
+
+kemudian akan tampil invoice dengan detail waktu transaksi, nama, jumlah dan harga coffee,total bill, total uang yang dibayar, dan uang kembalian )
+dan kembali ke menu tampilan awal customer
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/0b85ec0f-5ae0-45bd-863a-df71599bc10b)
+Ketika user menginput 2 maka akan muncul menu dengan fitur (sorting) yaitu menu yang sudah diurutkan berdasarkan harga terendah dari atas ke bawah
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/60796b1b-3927-47ca-898f-d1d14eadc4e7)
+Ketika user menginput 3 maka akan keluar dari bagian customer dan ke menu login.. user dapat menginput "X" jika ingin keluar dari menu login dan menuju pemilihan role
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/fa97844a-aebe-41f2-9bc9-f1c51ac2646b)
+Ketika user menginput 2 maka akan ke menu cashier dan diminta untuk login username dan password
+Kemudian jika user menginput 1 untuk melihat order maka akan muncul tampilan orderan yang sudah ada
+
 
 
 
