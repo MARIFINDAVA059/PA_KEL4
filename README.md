@@ -47,3 +47,35 @@ Program ini memungkinkan pengguna untuk berinteraksi dengan sistem sebagai pelan
 
 ![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/26df85f9-7376-468e-a39a-cffe79b9187c)
 Tampilan Menu awal
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/11d8b619-2eeb-47e9-8fd8-24282f7d3c00)
+Ketika user memilih opsi 2 : register
+akan diminta 4 input
+username
+password
+role
+jumlah e money
+ketika berhasil akan tersimpan ke users.csv
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/dd9b4b6b-6e20-4492-8593-32239260dfa4)
+ketika username sudah ada
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/c80acd24-a472-4d55-816b-4caeb52ecbd8)
+ketika input tidak sesuai role
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/c18dddcb-70f9-4551-b1b1-a4ade185fbd7)
+Ketika user memilih opsi 1 : login
+akan muncul pilihan role untuk dijalankan
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/4d48da9a-0c81-40f1-850c-ce6ad05a2053)
+ketika user memilih opsi 1 : customer
+akan diminta login dan mengisi password
+jika user menginput "X" maka akan langsung kembali ke menu pemilihan role
+
+
+
+
+
+
+
+
