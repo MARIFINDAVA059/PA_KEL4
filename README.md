@@ -95,9 +95,43 @@ Ketika user menginput 2 maka akan muncul menu dengan fitur (sorting) yaitu menu 
 ![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/60796b1b-3927-47ca-898f-d1d14eadc4e7)
 Ketika user menginput 3 maka akan keluar dari bagian customer dan ke menu login.. user dapat menginput "X" jika ingin keluar dari menu login dan menuju pemilihan role
 
-![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/fa97844a-aebe-41f2-9bc9-f1c51ac2646b)
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/976880b9-d13f-4796-aef6-4cd25b34b64b)
+
 Ketika user menginput 2 maka akan ke menu cashier dan diminta untuk login username dan password
 Kemudian jika user menginput 1 untuk melihat order maka akan muncul tampilan orderan yang sudah ada
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/617abf95-9b35-434f-a21b-1143d91b9a14)
+Ketika user menginput 2 
+user perlu menginput nama customer yang ingin di "search" untuk di "delete" dari orderan agar ketika dilihat menggunakan fitur view orders tidak ditampilkan lagi
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/27d07461-3d20-46ed-a25f-99c59aa8208f)
+Ketika user menginput 3 maka user dapat mengupdate coffee yang ada dengan menginput nama, jumlah coffee setelah diubah kemudian coffee yang telah diupdate akan dimasukan ke database
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/0c45dac4-576f-491d-a35c-8432306af804)
+Ketika user menginput 4 dapat menambah nama coffee baru dan juga menginput harga dan jumlah stok coffee
+
+Dan ketika user menginput 5 maka akan keluar dari menu kasir
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/be876c95-3d29-4b08-a2d7-2d6b90fb9a91)
+ketika user memilih role 3 yaitu manager
+dan juga menginput 1 maka akan tampil total orderan yang ada 
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/ca099769-24d1-4339-a7b5-d6a80759dcea)
+ketika user menginput 2 akan menampilkan total stok yang ada
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/ca1bd200-d358-4f0a-a4f5-144eeb284851)
+Ketika user menginput 3 maka dapat mengupdate orderan yang ada
+dengan menginput nama customer
+akan muncul output orderan customer
+kemudian user dapat menginput nama coffee yang ingin diupdate jumlahnya
+kemudian menginput jumlah coffee terbaru dan input "X" untuk keluar dari fitur ini
+
+![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/1f80f4fc-36b2-4077-9a14-616af8a3faa2)
+kemudian dapat menginput untuk keluar dari menu manager , pemilihan role, dan menu tampilan awal. program selesai.
+
+
+
+
 
 
 
