@@ -132,7 +132,9 @@ kemudian user dapat menginput nama coffee yang ingin diupdate jumlahnya
 kemudian menginput jumlah coffee terbaru dan input "X" untuk keluar dari fitur ini
 
 ![image](https://github.com/MARIFINDAVA059/PA_KEL4/assets/147223413/1f80f4fc-36b2-4077-9a14-616af8a3faa2)
-kemudian dapat menginput untuk keluar dari menu manager , pemilihan role, dan menu tampilan awal. program selesai.
+kemudian dapat menginput untuk keluar dari menu manager , pemilihan role, dan menu tampilan awal. 
+
+Program selesai.
 
 
 
