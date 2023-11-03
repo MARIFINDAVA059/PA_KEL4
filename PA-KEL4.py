@@ -4,6 +4,8 @@ from pwinput import pwinput
 from prettytable import PrettyTable
 from datetime import datetime
 
+
+
 # Function untuk menampilkan menu yang sudah diurutkan berdasarkan harga.
 def display_sorted_menu(menu):
     table = PrettyTable(["Menu", "Price", "Stock"])  
@@ -201,9 +203,9 @@ def customer_interface():
             if choice == '1':
                 while True:
                     display_menu()
-                    coffee = input("Enter a coffee item (or 'X' to finish): ")
+                    coffee = input("Enter a coffee item (or 'X' to finish) : ")
                     if coffee == 'X':
-                        break
+                        break  
                     if coffee in menu and coffee in stock and stock[coffee] > 0:         
                         try:
                             quantity = int(input(f"How many {coffee}s would you like? "))
@@ -340,6 +342,46 @@ def role_selection(users):
         else:
             print("Invalid choice. Please try again.")
 
+# Function untuk menampilkan catatan total pesanan.
+def display_total_orders():
+    table = PrettyTable(["Customer", "Order"])
+    for customer, order in order_records.items():
+        table.add_row([customer, order])
+    print("Customer Orders")
+    print(table)
+
+# Function untuk menampilkan total stok barang.
+def display_total_stock():
+    print("Total Stock:")
+    for item, quantity in stock.items():
+        print(f"{item}: {quantity}")
+
+# Function untuk mengupdate pesanan pelanggan.
+def update_orders():
+    customer_name = input("Enter the customer's name to update their order or 'X' to exit: ")
+    if customer_name in customer_orders:
+        print(f"Current order for {customer_name}: {customer_orders[customer_name]}")
+        new_order = {} 
+        while True:
+            coffee = input("Enter a coffee item to update : ")
+            if coffee == 'X':
+                break
+            if coffee in menu:
+                try:
+                    new_quantity = int(input(f"How many {coffee}s would you like? "))
+                    new_order[coffee] = new_quantity   
+                except ValueError:
+                    print("Invalid input. Please enter a valid quantity.")
+                except KeyboardInterrupt:
+                    print("\ninput yang anda masukkan tidak valid")
+                    continue
+            else:
+                print("Invalid coffee selection. Please choose from the menu.")
+        customer_orders[customer_name] = new_order     
+        print(f"Order for {customer_name} has been updated successfully.")
+    else:
+        print("Customer not found. Please check the name.")
+
 # Function untuk antarmuka kasir.
 def cashier_interface(users):
     while True:
@@ -419,47 +461,6 @@ def manager_interface(users):
         except KeyboardInterrupt:
             print("\nInput interrupted. Please try again.")
 
-
-# Function untuk menampilkan catatan total pesanan.
-def display_total_orders():
-    table = PrettyTable(["Customer", "Order"])
-    for customer, order in order_records.items():
-        table.add_row([customer, order])
-    print("Customer Orders")
-    print(table)
-
-# Function untuk menampilkan total stok barang.
-def display_total_stock():
-    print("Total Stock:")
-    for item, quantity in stock.items():
-        print(f"{item}: {quantity}")
-
-# Function untuk mengupdate pesanan pelanggan.
-def update_orders():
-    customer_name = input("Enter the customer's name to update their order or 'X' to exit : ")
-    if customer_name in customer_orders:
-        print(f"Current order for {customer_name}: {customer_orders[customer_name]}")
-        new_order = {} 
-        while True:
-            coffee = input("Enter a coffee item to update : ")
-            if coffee == 'X':
-                break
-            if coffee in menu:
-                try:
-                    new_quantity = int(input(f"How many {coffee}s would you like? "))
-                    new_order[coffee] = new_quantity   
-                except ValueError:
-                    print("Invalid input. Please enter a valid quantity.")
-                except KeyboardInterrupt:
-                    print("\ninput yang anda masukkan tidak valid")
-                    continue
-            else:
-                print("Invalid coffee selection. Please choose from the menu.")
-        customer_orders[customer_name] = new_order     
-        print(f"Order for {customer_name} has been updated successfully.")
-    else:
-        print("Customer not found. Please check the name.")
-
 # Function untuk menampilkan menu dengan harga dan stok.
 def display_menu():
     table = PrettyTable(["Menu", "Price", "Stock"])  
@@ -497,4 +498,3 @@ def main_menu(users):
 
 if __name__ == '__main__':
     main_menu(users)
-
