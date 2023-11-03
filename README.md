@@ -1,5 +1,10 @@
 # PA_KEL4
 
+SISTEM INFORMASI-B '23
+KELOMPOK 4 
+1. Muhammad Arifin Dava (2309116059)
+2. RIcky Renaldi        (2309116064)
+3. Rizal Paskah         (2309116093)
 
 Program ini adalah simulasi dari sistem kasir dan manajemen kafe bernama "RumahKita CoffeeShop". Program ini memungkinkan pengguna untuk melakukan sejumlah tugas, seperti mendaftarkan pengguna baru, melakukan pemesanan kopi, mengelola stok barang, dan melihat catatan pesanan. Program ini terdiri dari beberapa fungsi dan antarmuka pengguna yang berbeda. Ini adalah panduan singkat tentang cara kerja program:
 
